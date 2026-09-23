@@ -1,6 +1,6 @@
 # WiFi AP
 
-Aplicativo Windows com um botão para ativar e desativar a conexão direcionada a um ponto de acesso Wi-Fi (BSSID). Mostra o AP escolhido, o AP atual e o estado da associação.
+Aplicativo Windows com um botão para ativar e desativar a conexão direcionada a um ponto de acesso Wi-Fi (BSSID). Mostra o AP escolhido, o AP atual e o estado da associação. Criado para forçar o Windows a travar a conexão em somente 1 Access Point, evitando o problema crônico de ficar trocando toda hora de dispositivo, fazendo a rede cair e gerando um transtorno desnecessário. Ainda em fase de testes, porém, tem funcionado bem até o momento.
 
 ## Tecnologia
 
