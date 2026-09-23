@@ -1,0 +1,20 @@
+# Local network configuration
+**/App.local.config
+**/*.local.config
+# Builds, logs, tests, IDE files
+artifacts/
+**/bin/
+**/obj/
+.vs/
+.idea/
+*.user
+*.suo
+*.exe
+*.pdb
+*.log
+*.log.*
+test-results.txt
+log-test-*/
+preview-logs/
+Thumbs.db
+.DS_Store

@@ -1,0 +1,18 @@
+name: Windows build and tests
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: windows-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile
+        shell: powershell
+        run: ./tools/Build.ps1
+      - name: Simulated tests
+        shell: powershell
+        run: ./tools/Test.ps1
