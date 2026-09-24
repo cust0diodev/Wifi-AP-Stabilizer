@@ -1,6 +1,6 @@
 # WiFi AP
 
-Aplicativo Windows com um botão para ativar e desativar a conexão direcionada a um ponto de acesso Wi-Fi (BSSID). Mostra o AP escolhido, o AP atual e o estado da associação.
+Aplicativo Windows com um botão para ativar e desativar a conexão direcionada a um ponto de acesso Wi-Fi (BSSID). Mostra o AP escolhido, o AP atual e o estado da associação. Criado para forçar o Windows a travar a conexão em somente 1 Access Point, evitando o problema crônico de ficar trocando toda hora de dispositivo, fazendo a rede cair e gerando um transtorno desnecessário. Ainda em fase de testes, porém, tem funcionado bem até o momento.
 
 ## Demonstração
 
@@ -98,23 +98,6 @@ tools/
   Test.ps1
 .github/workflows/build.yml
 ~~~
-
-## Publicar no GitHub
-
-Crie um repositório vazio no GitHub e, nesta pasta, execute:
-
-~~~text
-git init
-git add .
-git status
-git commit -m "Initial commit: WiFi AP"
-git branch -M main
-git remote add origin URL_DO_SEU_REPOSITORIO
-git push -u origin main
-~~~
-
-Confira git status antes do commit: configurações locais, executáveis, logs e arquivos de IDE devem ficar fora do Git. Se publicar um executável como release, revise também seu .exe.config para evitar compartilhar os identificadores da sua rede.
-
 ## Licença
 
 MIT — veja o arquivo [LICENSE](LICENSE).
