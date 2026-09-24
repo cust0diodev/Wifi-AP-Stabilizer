@@ -2,6 +2,10 @@
 
 Aplicativo Windows com um botão para ativar e desativar a conexão direcionada a um ponto de acesso Wi-Fi (BSSID). Mostra o AP escolhido, o AP atual e o estado da associação.
 
+## Demonstração
+
+![Demonstração da aplicação WiFi AP: ativação, busca pelo AP escolhido, confirmação e desativação](docs/wifi-ap-demo.gif)
+
 ## Tecnologia
 
 C# 5, Windows Forms, .NET Framework 4.8, executável x64 e API nativa WLAN via P/Invoke. Não usa servidor, navegador embutido, NuGet ou PowerShell durante o uso normal. PowerShell é usado pelos scripts de compilação e teste.
